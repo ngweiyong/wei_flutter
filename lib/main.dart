@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wei_flutter/config.dart';
 
 void main() {
   runApp(const MyApp());
@@ -95,6 +96,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const Text(key1, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+            const Text(key2, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+            const Text(key3, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
             const Text(
               'You have pushed the button this many times:',
             ),
